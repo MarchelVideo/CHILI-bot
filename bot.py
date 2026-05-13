@@ -527,6 +527,775 @@ PROMPTS = [
         )}
     ]},
 
+    # === БУРГЕРИ ===
+
+    {"tema": "🍔 Бургер з кисло-солодкою куркою — 235₴", "category": "food",
+     "caption": "Кисло-солодка курка у паніровці, чедер та айсберг 🍔\nСерйозний бургер для серйозного апетиту.\nCHILI 🌶️\n\n#бургер #chiliodessa #одеса #burger",
+     "refs_note": "📸 Фото бургера з меню CHILI\n🔴 Логотип CHILI PNG\n🍔 Фото булочки бріош крупно",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "premium burger with sweet-and-sour crispy chicken on brioche bun",
+            "Golden brioche bun crown with sesame seeds, glossy glazed sweet-sour chicken fillet "
+            "showing crispy panko coating with caramelized edges, melted cheddar draped over chicken, "
+            "pickled onion rings, crisp iceberg lettuce leaves, cheeseburger sauce oozing dramatically. "
+            "Burger EXPLODES apart through frame — each layer separating mid-air. ",
+            "sesame seeds orbiting like satellites, brioche bun crumbs tumbling, "
+            "cheddar cheese threads stretching and snapping, "
+            "pickled onion rings spinning, iceberg leaf fragments, "
+            "sauce droplets in golden threads",
+            "Warm burger-gold and amber palette. Bold appetite-forward energy."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "sweet-and-sour chicken burger — golden sesame brioche bun, "
+            "thick crispy panko chicken fillet with sweet-sour glaze catching light, "
+            "melted cheddar flowing down sides, pickled red onion rings, "
+            "crisp iceberg lettuce, cheeseburger sauce visible at edges, "
+            "burger skewer holding tower together",
+            f"{INTERIOR} dark oak table, "
+            "geometric pendant light creating circular highlight on bun crown, "
+            "leather chair and monstera plant softly blurred behind",
+            "Single dramatic overhead spotlight on bun crown, "
+            "cheese glistening, crispy chicken texture in sharp relief, "
+            "deep shadows under burger suggesting height and drama",
+            "Side-on hero shot at table level. Fries blurred beside burger as prop."
+        )}
+    ]},
+
+    {"tema": "🍔 Чізбургер — 289₴", "category": "food",
+     "caption": "Яловича котлета, бекон, чедер і соус барбекю 🔥\nКласика яка ніколи не підводить.\nCHILI 🌶️\n\n#чізбургер #chiliodessa #одеса #cheeseburger",
+     "refs_note": "📸 Фото чізбургера з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "classic cheeseburger with beef patty and bacon on brioche bun",
+            "Perfectly seared beef patty with crust showing grill marks, "
+            "double cheddar slices melting over patty edges, crispy bacon rashers with caramelized tips, "
+            "pickle coins, iceberg lettuce, cheeseburger sauce and BBQ sauce pooling dramatically. "
+            "BURGER CROSS-SECTION REVEALED as it shatters through frame. ",
+            "beef juices droplets mid-air like amber spheres, "
+            "bacon strip curling in heat, cheddar thread spinning outward, "
+            "sesame seeds from bun in constellation, "
+            "BBQ sauce ribbon arcing across frame",
+            "Deep meaty browns and caramel golds. Primal burger energy — bold and unapologetic."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "classic cheeseburger — toasted brioche bun with seeds, "
+            "thick beef patty with dark char crust and juicy pink center visible, "
+            "two cheddar slices melted to flowing over sides, "
+            "thick-cut crispy bacon with caramelized edges, "
+            "dill pickle coins, crisp iceberg, BBQ and cheeseburger sauce dripping",
+            f"{HALL} interior — on dark oak table, "
+            "warm ambient restaurant lighting with geometric pendant above, "
+            "blurred background showing restaurant buzz",
+            "Warm amber restaurant spotlight from above-right, "
+            "cheddar glowing golden, char marks on patty high contrast, "
+            "bacon catching highlight showing caramelized texture, "
+            "dramatic shadow under stacked burger",
+            "Classic side-on shot at table height. Beer glass blurred at edge as lifestyle prop."
+        )}
+    ]},
+
+    {"tema": "🍔 Бургер з сирним соусом та карамелізованим беконом — 345₴", "category": "food",
+     "caption": "Карамелізований бекон, сирний соус і пармезан 👑\nКоли звичайний бургер — замало.\nCHILI 🌶️\n\n#бургер #chiliodessa #одеса #burger #bacon",
+     "refs_note": "📸 Фото бургера з карамелізованим беконом\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "premium burger with caramelized bacon and cheese sauce on oversized brioche",
+            "Tall golden brioche bun crown, thick beef patty, "
+            "caramelized bacon lattice with amber glaze catching light like candy, "
+            "cascading cheese sauce in thick golden rivers over everything, "
+            "shaved parmesan snow on top, BBQ sauce dark and glossy beneath. "
+            "CHEESE SAUCE WATERFALL pours through frame continuously. ",
+            "caramelized bacon shards tumbling like amber glass, "
+            "cheese sauce threads in long golden arcs, "
+            "parmesan shavings floating like snowflakes, "
+            "beef juices mid-air, "
+            "BBQ sauce droplets deep brown",
+            "Rich amber and gold palette — indulgent, premium, show-stopping."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "caramelized bacon cheese sauce burger — "
+            "tall brioche bun, thick beef patty, "
+            "intricately caramelized bacon showing amber candy glaze with beautiful texture, "
+            "thick cheese sauce flowing over sides in glossy rivers, "
+            "shaved parmesan curls on crown, "
+            "BBQ sauce dark and glossy, tomato slice, iceberg lettuce",
+            f"{HALL} — on dark oak table under warm pendant spotlight, "
+            "rest of restaurant softly glowing behind in amber tones",
+            "Focused warm spotlight making cheese sauce gleam like gold, "
+            "caramelized bacon texture extremely detailed in raking light, "
+            "parmesan catching highlight individually, "
+            "deep dramatic shadows making burger look monumental",
+            "Low hero angle making burger look towering. "
+            "Extra cheese sauce jar beside plate as prop."
+        )}
+    ]},
+
+    # === ОСНОВНІ СТРАВИ ===
+
+    {"tema": "🥩 Біфштекс з грибним соусом та пюре — 269₴", "category": "food",
+     "caption": "Яловичий біфштекс, грибний соус і картопляне пюре 🥩\nСолідно. Смачно. CHILI.\n\n#біфштекс #chiliodessa #одеса #steak",
+     "refs_note": "📸 Фото біфштексу з меню CHILI\n🔴 Логотип CHILI PNG\n🍄 Фото грибів (референс соусу)",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "beef bifsteak with mushroom sauce and mashed potato on dark ceramic plate",
+            "Perfectly seared beef steak with beautiful crust and grill cross-marks, "
+            "rich dark brown mushroom sauce pooling and cascading over steak, "
+            "silky smooth mashed potato quenelle beside it, "
+            "wilted spinach with garlic oil, shaved parmesan, pickled cucumber fan. "
+            "SAUCE ERUPTS through frame in dark glossy wave. ",
+            "mushroom slices mid-air, dark sauce droplets orbiting, "
+            "mashed potato wisps like clouds, beef juices in amber drops, "
+            "parmesan shavings catching light, spinach leaves floating",
+            "Rich dark browns and golden ambers — hearty Eastern European comfort with premium finish."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "beef bifsteak plate — beautifully seared rectangular beef steak, "
+            "deep brown mushroom cream sauce generously ladled over and pooling on plate, "
+            "silky mashed potato quenelle with butter well, "
+            "wilted spinach in garlic oil alongside, "
+            "shaved parmesan, pickled cucumber fan as garnish",
+            f"{HALL} interior — dark ceramic plate on warm oak table, "
+            "pendant light creating circular spotlight on plate surface",
+            "Focused warm spotlight from directly above, "
+            "steak crust texture razor-sharp, "
+            "mushroom sauce glossy and steaming, "
+            "mashed potato surface catching light with silky sheen",
+            "Hero overhead at 45 degrees. Pepper grinder and bread as lifestyle props beside."
+        )}
+    ]},
+
+    {"tema": "🍽 Полента з пармезаном — від 219₴", "category": "food",
+     "caption": "Ніжна полента, пармезан і начинка на твій вибір 🧀\nЛосось, курка або креветка — вирішуй сам.\nCHILI 🌶️\n\n#полента #chiliodessa #одеса #polenta",
+     "refs_note": "📸 Фото поленти з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "creamy parmesan polenta with salmon topping on elegant dark plate",
+            "Thick creamy yellow polenta base swirled artfully, "
+            "pan-seared salmon fillet on top with golden crust, "
+            "fresh cucumber ribbons, sliced tomatoes, spinach leaves, "
+            "rucola scattered, cherry tomatoes halved showing vivid red interior, "
+            "parmesan snow dusted over everything. "
+            "POLENTA RISES from plate in slow golden wave. ",
+            "parmesan snowflakes mid-air, cherry tomato halves tumbling showing jewel interior, "
+            "salmon flakes orbiting, rucola leaves spinning, "
+            "golden polenta droplets, spinach ribbon fragments",
+            "Mediterranean summer palette — golden yellow, coral salmon, vivid greens."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "polenta with parmesan — generous creamy golden polenta base with artful swirl marks, "
+            "pan-seared salmon fillet centered on top with crispy golden skin, "
+            "fresh cucumber slices and tomato wedges arranged alongside, "
+            "baby spinach and rucola leaves, "
+            "halved cherry tomatoes showing ruby interior, "
+            "parmesan generously shaved over entire dish",
+            f"{INTERIOR} terrace — marble table, morning daylight, "
+            "green plants framing sides of shot naturally",
+            "Bright clean daylight from terrace creating fresh vibrant colors, "
+            "golden polenta glowing warmly, salmon skin catching crisp highlight, "
+            "vegetables vivid and fresh-looking",
+            "Top-down overhead shot showing the full composition beauty. "
+            "Second smaller plate with topping options blurred beside."
+        )}
+    ]},
+
+    {"tema": "🍝 Ньокі з креветками та базиліковим соусом — 297₴", "category": "food",
+     "caption": "Ньокі, креветки, базиліковий соус і трохи халапеньо 🌶️\nГостро. Ароматно. Addictive.\nCHILI 🌶️\n\n#ньокі #chiliodessa #одеса #gnocchi #shrimp",
+     "refs_note": "📸 Фото ньоків з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "gnocchi with shrimp and basil sauce in dark ceramic deep plate",
+            "Pillowy golden-seared gnocchi pieces in vibrant green basil-tomato sauce, "
+            "large pink tiger shrimp perched on top showing perfect curve and cook color, "
+            "sliced dried tomatoes adding deep burgundy pops, "
+            "fresh spinach wilted through sauce, jalapeno rings adding green heat, "
+            "parmesan freshly grated snow on top. "
+            "GNOCCHI AND SAUCE ERUPT upward through frame. ",
+            "gnocchi pieces tumbling showing pillowy texture, "
+            "shrimp mid-flight in perfect arc, "
+            "basil sauce droplets deep green, dried tomato slivers, "
+            "parmesan threads mid-air, jalapeno rings orbiting",
+            "Vibrant Italian herb-green with coral shrimp. Bold Mediterranean energy."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "gnocchi with shrimp — dark ceramic bowl, "
+            "golden pan-seared gnocchi in rich basil and tomato cream sauce, "
+            "three large tiger shrimp arranged crown on top showing pink-orange cook color, "
+            "dried tomatoes, wilted spinach, jalapeno rings visible through sauce, "
+            "parmesan generously grated over top",
+            f"{HALL} interior — warm oak table, "
+            "pendant light above creating warm focused glow on bowl contents",
+            "Warm single overhead light making sauce glisten and shrimp glow coral, "
+            "steam rising from hot bowl, "
+            "basil green sauce vibrant under warm light, "
+            "deep shadows at bowl edges creating depth",
+            "Low angle 30 degrees showing bowl depth and shrimp height. "
+            "Fresh basil sprig as prop beside bowl."
+        )}
+    ]},
+
+    {"tema": "🍝 Ньокі з куркою та грибами — 219₴", "category": "food",
+     "caption": "Ньокі, курка, печериці і мексиканський соус 🌶️\nКомфортна їжа з характером.\nCHILI 🌶️\n\n#ньокі #chiliodessa #одеса #gnocchi",
+     "refs_note": "📸 Фото ньоків з куркою з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "gnocchi with chicken and mushrooms in tomato cream sauce",
+            "Soft pillowy gnocchi in rich tomato-cream Mexican sauce, "
+            "diced chicken breast pieces golden from pan, "
+            "sliced champignon mushrooms sautéed to golden brown, "
+            "cherry tomatoes halved in sauce, fresh spinach wilted in, "
+            "parmesan grated over top, Mexican sauce swirl visible. "
+            "Bowl TIPS with contents CASCADING outward. ",
+            "gnocchi pieces at various angles mid-air, "
+            "mushroom slice fragments, cherry tomato halves showing seeds, "
+            "cream sauce droplets orange-red, spinach leaf ribbons, "
+            "parmesan shaving clusters",
+            "Warm Italian-Mexican fusion palette — tomato reds, cream whites, golden browns."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "chicken mushroom gnocchi — wide ceramic bowl, "
+            "pillowy gnocchi in creamy tomato-spice sauce, "
+            "chunky chicken breast pieces with golden sear, "
+            "thickly sliced golden mushrooms, cherry tomato halves, "
+            "wilted spinach, parmesan melting into sauce surface",
+            f"{HALL} — on warm oak table, restaurant interior warm and busy behind in bokeh",
+            "Warm restaurant ambient light with focused pendant spot on bowl, "
+            "sauce surface catching warm reflection, "
+            "steam suggesting fresh-cooked warmth, "
+            "golden mushrooms and chicken textured under raking light",
+            "Overhead 45 degrees. Sprinkle of fresh chili flakes and basil leaf on top as garnish."
+        )}
+    ]},
+
+    {"tema": "🍝 Ньокі з соусом Болоньєзе — 219₴", "category": "food",
+     "caption": "Болоньєзе з яловичини та свинини, томатний соус і пармезан 🥩\nІталія у серці Одеси.\nCHILI 🌶️\n\n#болоньєзе #chiliodessa #одеса #bolognese",
+     "refs_note": "📸 Фото ньоків болоньєзе з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "gnocchi bolognese — pillowy potato gnocchi with rich meat sauce",
+            "Rustic deep red bolognese sauce with visible ground beef and pork chunks, "
+            "gnocchi nestled throughout sauce, "
+            "San Marzano tomato base deep and glossy, "
+            "generous fresh parmesan mountain on top, "
+            "fresh basil leaves as vivid green crown. "
+            "BOLOGNESE SAUCE ERUPTS through frame like lava. ",
+            "meat sauce droplets deep burgundy-red, gnocchi pieces tumbling, "
+            "parmesan shavings in dense cloud, "
+            "basil leaves spinning, tomato chunk fragments, "
+            "red sauce mist",
+            "Classic Italian deep reds and warm ambers. Rustic comfort food prestige."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "gnocchi bolognese — deep ceramic bowl, "
+            "rustic rich bolognese sauce with visible beef and pork, "
+            "pillowy gnocchi throughout, "
+            "thick San Marzano tomato base deeply colored, "
+            "large parmesan mountain freshly grated at table, "
+            "fresh basil leaves on top, "
+            "sauce glistening with natural meat fats",
+            f"{HALL} interior — warm oak table, "
+            "Italian restaurant warm lighting, "
+            "candle light adding amber warmth in background bokeh",
+            "Warm single candle-like light source creating intimate dinner atmosphere, "
+            "sauce surface deeply glossy, "
+            "parmesan catching warm highlight at edges, "
+            "steam suggesting fresh preparation",
+            "Close overhead 50 degrees. Fresh parmesan wedge and grater as prop beside bowl."
+        )}
+    ]},
+
+    {"tema": "🍚 Ризото з беконом та курячим філе — 191₴", "category": "food",
+     "caption": "Рис арборіо, бекон, куряче філе і пармезан 🧀\nРізото яке гріє зсередини.\nCHILI 🌶️\n\n#різото #chiliodessa #одеса #risotto",
+     "refs_note": "📸 Фото різото з беконом з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "creamy bacon and chicken risotto in wide flat ceramic bowl",
+            "Glossy creamy arborio rice spread in wide flat circle, "
+            "crispy bacon lardons scattered throughout catching light, "
+            "golden chicken breast slices fanned on top, "
+            "bacon chip crisps standing vertical as dramatic garnish, "
+            "parmesan melted through and freshly grated on top, "
+            "egg yolk swirl creating golden center. "
+            "RISOTTO SPREADS outward through frame in creamy wave. ",
+            "arborio rice grains mid-air showing round shape, "
+            "bacon lardons tumbling in amber clusters, "
+            "chicken slices in flat arc, bacon crisp fragments, "
+            "parmesan cloud, egg yolk sphere intact mid-air",
+            "Rich cream and amber palette. Sophisticated Italian comfort food."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "bacon chicken risotto — wide shallow ceramic bowl, "
+            "perfectly cooked creamy arborio risotto with all'onda wave pattern, "
+            "crispy bacon pieces throughout with one large bacon chip standing vertical, "
+            "sliced golden chicken breast fanned elegantly, "
+            "parmesan snow covering surface, "
+            "egg yolk swirl at center creating golden sun pattern",
+            f"{HALL} — wide ceramic bowl on warm oak table, "
+            "restaurant interior with pendant lights creating warm glow",
+            "Top-down overhead light creating even illumination on risotto surface, "
+            "cream risotto catching warm golden tones, "
+            "bacon crisps and parmesan casting tiny shadows, "
+            "egg yolk deep golden glowing from warmth",
+            "Overhead shot showing wave pattern of risotto. "
+            "Parmesan wedge beside bowl as Italian styling detail."
+        )}
+    ]},
+
+    {"tema": "🦐 Ризото з креветками — 245₴", "category": "food",
+     "caption": "Арборіо, креветки, вʼялені томати та базиліковий соус 🍤\nРізото на рівні ресторану — у CHILI.\nCHILI 🌶️\n\n#різото #chiliodessa #одеса #risotto #shrimp",
+     "refs_note": "📸 Фото різото з креветками з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "shrimp risotto with dried tomatoes and basil sauce in elegant white ceramic",
+            "Silky cream risotto base with arborio rice visible, "
+            "large pink tiger shrimp arranged in crown pattern on top, "
+            "dried tomato slivers adding burgundy color pops, "
+            "champignon mushrooms golden from sauté, "
+            "fresh basil sauce swirl deep green, "
+            "parmesan grated over everything. "
+            "SHRIMP LEAP from bowl through frame in synchronized arc. ",
+            "shrimp mid-flight in perfect pink curves, "
+            "dried tomato sliver ribbons, mushroom slice fragments, "
+            "basil sauce drops deep green, "
+            "parmesan threads, arborio rice grains",
+            "Elegant pink and cream palette with Mediterranean herb green. Premium seafood energy."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "shrimp risotto — elegant wide white bowl, "
+            "creamy arborio risotto with natural ripple surface, "
+            "four large tiger shrimp arranged symmetrically showing beautiful cook color, "
+            "sun-dried tomato pieces adding color contrast, "
+            "golden sautéed mushrooms, "
+            "basil pesto swirl in vivid green, "
+            "parmesan generously grated and beginning to melt",
+            f"{INTERIOR} terrace — white bowl on marble table, "
+            "afternoon Mediterranean light creating clean bright image",
+            "Clean bright natural light showing vivid colors authentically, "
+            "shrimp coral-pink glowing, basil sauce electric green, "
+            "risotto cream and warm, "
+            "tomatoes deep burgundy popping against white bowl",
+            "Slightly elevated angle at 30 degrees. Fresh lemon wedge and basil sprig as props."
+        )}
+    ]},
+
+    {"tema": "🥩 Бефстроганов з картопляним пюре — 355₴", "category": "food",
+     "caption": "Телятина, вершки, солоні огірки та картопляне пюре 🥩\nКласика яка повертає додому.\nCHILI 🌶️\n\n#бефстроганов #chiliodessa #одеса #beef",
+     "refs_note": "📸 Фото бефстроганова з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "beef stroganoff with mashed potato on dark oval ceramic plate",
+            "Tender veal strips in silky sour cream sauce with mushrooms, "
+            "sauce rich and creamy showing depth of color, "
+            "smooth mashed potato mountain beside with butter melting down sides, "
+            "pickled cucumber fan as bright green accent, "
+            "fresh herbs scattered on top. "
+            "CREAM SAUCE CASCADES through frame in white river. ",
+            "veal strip pieces mid-air showing seared edges, "
+            "cream sauce droplets white and ivory, "
+            "mushroom slices orbiting, mashed potato wisps, "
+            "pickle slices like green discs, herb sprigs",
+            "Classic Russian-Ukrainian comfort food palette — cream whites, rich browns, fresh greens."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "beef stroganoff — dark oval plate, "
+            "tender veal strips in glossy rich sour cream and mushroom sauce, "
+            "sauce deep ivory with visible spice flecks, "
+            "silky mashed potato peak beside with melted butter pool, "
+            "pickled cucumber fan showing bright green color and translucent slices, "
+            "fresh dill sprig on mashed potato summit",
+            f"{HALL} interior — dark oval plate on warm oak table, "
+            "warm amber restaurant lighting creating intimate dinner feel",
+            "Warm focused pendant light from above, "
+            "cream sauce catching warm ivory-gold tones, "
+            "mashed potato surface silky and smooth, "
+            "veal pieces glistening from sauce coating",
+            "45-degree angle hero shot showing both stroganoff and mashed potato. "
+            "Dark bread slice as traditional prop beside plate."
+        )}
+    ]},
+
+    {"tema": "🥩 Пеппер стейк з картоплею фрі — 495₴", "category": "food",
+     "caption": "Вирізка з яловичини, перцевий соус і картопля фрі 🔥\nСтейк який говорить сам за себе.\nCHILI 🌶️\n\n#стейк #chiliodessa #одеса #steak #beef",
+     "refs_note": "📸 Фото пеппер стейку з меню CHILI\n🔴 Логотип CHILI PNG\n🥩 Фото мармурування м'яса (референс)",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "premium pepper steak with fries on dark slate board",
+            "Thick beef tenderloin steak with dark pepper crust showing perfect grill marks, "
+            "cross-cut revealing pink-red medium-rare interior, "
+            "dramatic pepper cream sauce poured dramatically over steak, "
+            "golden crispy fries piled beside, "
+            "wilted spinach with garlic oil, shaved parmesan, chili pepper garnish. "
+            "STEAK RISES from board through frame like monument. ",
+            "black peppercorns orbiting in slow constellation, "
+            "beef juice droplets deep amber-red, "
+            "pepper sauce pour mid-stream, "
+            "fry sticks mid-flight golden, "
+            "spinach leaves as dark green ribbon",
+            "Dark and dramatic — charcoal blacks, deep reds, golden fries. Power and premium energy."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "pepper steak — thick beef tenderloin with dark pepper crust, "
+            "perfect grill crosshatch visible on surface, "
+            "sliced to reveal vivid pink-red medium-rare interior, "
+            "rich pepper cream sauce drizzled over and pooling, "
+            "golden crispy fries in tall pile, "
+            "wilted spinach, shaved parmesan, red chili garnish",
+            f"{HALL} — on dark slate board on oak table, "
+            "dramatic restaurant lighting creating intense spotlight effect",
+            "Hard single focused spotlight from directly above, "
+            "pepper crust texture extreme detail in raking light, "
+            "steak cross-section glowing pink-red from internal warmth, "
+            "pepper sauce catching glossy highlight, "
+            "fries golden with deep shadow valleys",
+            "45-degree hero angle showing steak cut face. "
+            "Pepper grinder and steak knife as premium props."
+        )}
+    ]},
+
+    {"tema": "🍗 Курячий шніцель з картоплею та вершковим песто — 251₴", "category": "food",
+     "caption": "Хрусткий шніцель, смажена картопля та вершкове песто 🍗\nПросто і бездоганно.\nCHILI 🌶️\n\n#шніцель #chiliodessa #одеса #schnitzel",
+     "refs_note": "📸 Фото курячого шніцеля з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "crispy chicken schnitzel with garlic potatoes and basil pesto on dark plate",
+            "Golden crispy panko-breaded chicken schnitzel lying flat, "
+            "crust texture beautifully visible with deep golden color and crispy ridges, "
+            "buttery pan-fried garlic potatoes scattered beside showing golden sear marks, "
+            "seasonal cabbage salad adding fresh green-white texture, "
+            "cream basil pesto sauce swirled elegantly over schnitzel. "
+            "SCHNITZEL RISES and SHATTERS through frame showing crispy interior. ",
+            "panko breadcrumb particles mid-air in golden cloud, "
+            "potato chunk tumbling showing sear, "
+            "basil pesto drops deep green, "
+            "cabbage leaf ribbons white-green, "
+            "butter foam wisps",
+            "Golden and green — crispy summer energy with fresh herb contrast."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "chicken schnitzel plate — large golden panko-breaded schnitzel filling most of plate, "
+            "crust texture extremely crispy and detailed with deep golden-amber color, "
+            "buttery fried garlic potatoes with visible herb coating beside, "
+            "fresh seasonal cabbage salad in small mound, "
+            "cream basil pesto sauce in elegant swirl over schnitzel",
+            f"{INTERIOR} terrace — bright daylight plate on marble table, "
+            "green terrace plants framing shot naturally",
+            "Bright natural daylight emphasizing golden crispy texture, "
+            "raking afternoon light making every breadcrumb cast tiny shadow, "
+            "pesto sauce vivid green, "
+            "potato skins catching golden highlight",
+            "Side angle at table level showing schnitzel thickness. "
+            "Lemon wedge as classic schnitzel styling prop."
+        )}
+    ]},
+
+    {"tema": "🍗 Курячий стейк з солодкою кукурудзою та сирним соусом — 299₴", "category": "food",
+     "caption": "Курячий стейк, солодка кукурудза і сирний соус 🌽\nЯскраво. Соковито. Смачно.\nCHILI 🌶️\n\n#курка #chiliodessa #одеса #chicken",
+     "refs_note": "📸 Фото курячого стейку з кукурудзою з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "chicken steak with sweet corn and cheese sauce on dark ceramic plate",
+            "Golden-seared chicken breast steak with beautiful char marks, "
+            "sweet corn kernels in pools of golden butter — some still on the cob, "
+            "thick cheese sauce cascading over chicken and corn in golden rivers, "
+            "rucola leaves and cherry tomato halves adding color contrast, "
+            "shaved parmesan over everything. "
+            "CORN KERNELS EXPLODE through frame in golden shower. ",
+            "corn kernels mid-air in dense golden cluster, "
+            "cheese sauce threads golden-yellow, "
+            "chicken piece mid-turn showing sear, "
+            "cherry tomato halves tumbling jewel-red, "
+            "rucola leaves scattered",
+            "Vibrant summer golden yellow and green palette. Bright appetite-forward energy."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "chicken steak with corn — dark ceramic plate, "
+            "thick chicken breast steak with golden char marks and juicy surface, "
+            "sweet corn off the cob in rich butter and cheese sauce, "
+            "thick cheese sauce draping over chicken showing glossy pull, "
+            "fresh rucola leaves and halved cherry tomatoes, "
+            "parmesan generously shaved",
+            f"{INTERIOR} terrace — marble table in afternoon sunlight, "
+            "golden summer light creating warm energetic atmosphere",
+            "Direct warm afternoon sunlight creating golden glow, "
+            "corn kernels individually lit glowing yellow, "
+            "cheese sauce gleaming, "
+            "chicken char marks crisp in raking light",
+            "Overhead 45-degree angle. Grilled corn half as dramatic hero prop beside plate."
+        )}
+    ]},
+
+    {"tema": "🌾 Булгур з курячим фрікасе — 173₴", "category": "food",
+     "caption": "Булгур, куряче філе, кабачок і карі 🌾\nКорисно. Ароматно. Задоволення без докорів.\nCHILI 🌶️\n\n#булгур #chiliodessa #одеса #bulgur",
+     "refs_note": "📸 Фото булгуру з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "bulgur wheat fricassee with chicken and vegetables in ceramic bowl",
+            "Nutty golden bulgur wheat as base with visible grain texture, "
+            "tender chicken fricassee pieces in light cream-curry sauce, "
+            "zucchini chunks, bell pepper strips in yellow-orange, "
+            "red onion slivers, golden champignon mushrooms, "
+            "curry-infused cream sauce binding everything, "
+            "fresh parsley and green onion scattered on top. "
+            "BULGUR AND VEGETABLES SWIRL upward through frame. ",
+            "bulgur grains mid-air in golden dust cloud, "
+            "chicken pieces tumbling, vegetable chunk fragments in color, "
+            "curry sauce drops deep golden-orange, "
+            "green onion ribbons spinning",
+            "Warm golden spice palette — turmeric yellows, curry oranges, fresh herb greens."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "bulgur fricassee — ceramic bowl, "
+            "fluffy bulgur wheat base with defined individual grains, "
+            "chicken fricassee pieces with light golden curry cream sauce, "
+            "colorful bell pepper and zucchini pieces, "
+            "golden mushrooms, red onion slivers, "
+            "fresh parsley and green onion garnish on top",
+            f"{INTERIOR} — on warm oak table, "
+            "natural daylight making healthy colors vivid and fresh",
+            "Clean natural daylight showing true colors, "
+            "bulgur grains individually visible in raking light, "
+            "curry sauce warm golden tone, "
+            "vegetables bright and fresh-looking",
+            "Overhead shot showing colorful bowl composition. "
+            "Fresh parsley bunch beside as prop."
+        )}
+    ]},
+
+    {"tema": "🍗 Курячі биточки з пюре та фетовим мусом — 225₴", "category": "food",
+     "caption": "Битки з курячого філе, пюре, мус з фети та вершкове песто 🧀\nНіжно. По-домашньому. Смачно.\nCHILI 🌶️\n\n#курка #chiliodessa #одеса #chicken",
+     "refs_note": "📸 Фото курячих биточків з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "chicken rissoles with mashed potato and feta mousse on dark plate",
+            "Three golden pan-fried chicken rissoles arranged in triangle, "
+            "silky mashed potato quenelle with butter lake on top, "
+            "ethereally light feta mousse clouds white and airy, "
+            "cream basil pesto sauce swirled elegantly, "
+            "cherry tomatoes halved showing vivid interior, "
+            "fresh cucumber slices, "
+            "parsley leaf garnish. "
+            "FETA MOUSSE CLOUDS FLOAT through frame like white puffs. ",
+            "feta mousse wisps drifting upward, "
+            "chicken rissole pieces mid-air showing golden crust, "
+            "mashed potato wisps like soft clouds, "
+            "cherry tomato halves in jewel-red arc, "
+            "pesto drops deep green",
+            "Soft cream and gold palette with vivid green and red accents. Comforting home-cooking prestige."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "chicken rissoles plate — dark ceramic plate, "
+            "three perfectly formed golden-fried chicken rissoles, "
+            "silky mashed potato with melted butter, "
+            "whipped feta mousse in soft white clouds beside, "
+            "cream pesto sauce swirled, "
+            "halved cherry tomatoes, sliced cucumber, "
+            "fresh parsley sprig garnish",
+            f"{HALL} — on warm oak table, "
+            "warm focused pendant lamp creating intimate glow on plate",
+            "Warm focused overhead light, "
+            "feta mousse catching soft highlight with ethereal glow, "
+            "rissole golden crust detailed in warm light, "
+            "mashed potato silk catching butter highlight",
+            "Hero angle at 30 degrees showing height of mousse. "
+            "Vintage ceramic butter dish as prop beside."
+        )}
+    ]},
+
+    {"tema": "🥩 Свинина BBQ з картоплею — 319₴", "category": "food",
+     "caption": "Свинина, соус BBQ і картопля по-ірландські 🔥\nПросто. По-чоловічому. CHILI.\nCHILI 🌶️\n\n#свинина #bbq #chiliodessa #одеса",
+     "refs_note": "📸 Фото свинини BBQ з меню CHILI\n🔴 Логотип CHILI PNG\n🔥 Фото вогню/гриля (референс атмосфери)",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "BBQ pork with Irish-style potatoes on dark cast iron serving board",
+            "Thick pork steak slices with dark caramelized BBQ glaze, "
+            "grill marks creating perfect crosshatch on glossy surface, "
+            "rich dark BBQ sauce pooling and dripping dramatically, "
+            "Irish-style quartered pan-roasted potatoes golden and crispy, "
+            "coriander sauce Kinza bright green as contrast. "
+            "BBQ SAUCE POURS through frame in dark glossy waterfall. ",
+            "BBQ sauce droplets deep mahogany-brown mid-air, "
+            "pork slice fragments showing glaze, "
+            "potato wedge tumbling golden, "
+            "green cilantro leaves spinning, "
+            "smoke wisps from grill marks",
+            "Dark caramel and charcoal palette — masculine, bold, primal grill energy."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "BBQ pork plate — dark cast iron board, "
+            "thick-sliced pork with deep dark BBQ glaze, "
+            "grill crosshatch marks showing caramelization depth, "
+            "BBQ sauce pooling around edges in dark glossy rivers, "
+            "Irish-style quartered roasted potatoes with crispy skin and golden flesh, "
+            "fresh coriander sauce in small ramekin",
+            f"{HALL} — dark board on oak table, "
+            "dramatic restaurant lighting creating intense spotlight on meat",
+            "Hard dramatic spotlight from above-right, "
+            "BBQ glaze reflecting like lacquer in intense light, "
+            "grill marks at maximum contrast, "
+            "smoke effect from smoked oil addition, "
+            "deep dramatic shadows all around",
+            "Low dramatic angle making meat look monumental. "
+            "Extra BBQ sauce ramekin and cast iron pan visible at edge."
+        )}
+    ]},
+
+    {"tema": "🥩🐟 Мʼясний Сет — 1145₴", "category": "food",
+     "caption": "4 стейки + картопля + соуси + салат 🔥\nМʼясний Сет CHILI — для компанії яка розуміється.\nCHILI 🌶️\n\n#мʼясо #set #chiliodessa #одеса #steak",
+     "refs_note": "📸 Фото мʼясного сету з меню CHILI (загальний план)\n🔴 Логотип CHILI PNG\n🍽️ Фото великої дошки з подачею",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "spectacular meat set platter on large dark wooden board for sharing",
+            "Four different steaks arranged on board — beef tenderloin, chicken thigh, "
+            "chicken breast, pork — each with different char and color, "
+            "garlic herb potatoes in generous pile, "
+            "cabbage salad in small bowl, feta mousse quenelle, "
+            "two sauce ramekins — spicy garlic and honey mustard — gleaming. "
+            "ENTIRE BOARD EXPLODES UPWARD through frame with all components separating. ",
+            "multiple steak pieces mid-air at different heights, "
+            "potato wedges tumbling, "
+            "sauce droplets from both ramekins in contrasting streams, "
+            "feta mousse wisp, cabbage leaf fragments, "
+            "herb sprigs spinning in abundance",
+            "Feast and abundance energy — dark wood board, multiple meat varieties, sharing celebration."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "meat set platter — large dark wooden sharing board, "
+            "four steak types arranged with space: beef tenderloin sliced to show pink, "
+            "chicken thigh with char, chicken breast fillet, pork steak, "
+            "each showing distinct cooking and color, "
+            "garlic potato wedges in generous center pile, "
+            "small bowl of cabbage salad, "
+            "feta mousse quenelle, two sauce ramekins symmetrically placed",
+            f"{HALL} interior — on large oak table with multiple chairs visible, "
+            "warm restaurant atmosphere suggesting celebration and company",
+            "Wide soft overhead lighting showing entire board evenly, "
+            "each meat type catching individual highlights, "
+            "dark board making all items pop visually, "
+            "steam suggesting fresh from kitchen",
+            "Wide overhead shot showing entire platter. "
+            "Wine glasses and company hands visible at edges for lifestyle storytelling."
+        )}
+    ]},
+
+    {"tema": "🐟 Хрумкі котлетки з лосося та тунця — 293₴", "category": "food",
+     "caption": "Котлетки з тунця та лосося у панко, картопляне пюре і соус голандез 🐟\nМорська душа CHILI.\nCHILI 🌶️\n\n#лосось #тунець #chiliodessa #одеса #fish",
+     "refs_note": "📸 Фото рибних котлеток з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "crispy salmon and tuna fish cakes with hollandaise sauce on dark plate",
+            "Three golden panko-crusted fish cakes showing crispy texture, "
+            "silky mashed potato alongside with butter well, "
+            "hollandaise sauce in glossy yellow pour over fish cakes, "
+            "basil sauce swirl deep green, "
+            "pickled cucumber fan, "
+            "feta crumbles white, sun-dried tomato slivers, "
+            "parmesan shaved over top. "
+            "HOLLANDAISE POURS through frame in golden cascade. ",
+            "panko crust particles golden mid-air, "
+            "hollandaise sauce stream catching light, "
+            "fish flake fragments showing pink salmon and ivory tuna, "
+            "cucumber slices in translucent arc, "
+            "parmesan snow",
+            "Golden Mediterranean sea palette — panko gold, hollandaise yellow, green basil, salmon pink."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "fish cake plate — dark ceramic plate, "
+            "three golden panko-crusted salmon-tuna fish cakes with crispy exterior, "
+            "smooth mashed potato, "
+            "bright yellow hollandaise sauce generously drizzled, "
+            "fresh green basil sauce swirl, "
+            "pickled cucumber fan, white feta crumbles, "
+            "sun-dried tomato pieces, parmesan shavings",
+            f"{INTERIOR} terrace — marble table, "
+            "Mediterranean daylight making colors vibrant and fresh",
+            "Bright Mediterranean daylight, "
+            "hollandaise sauce glowing golden, "
+            "fish cake crust texture sharp in raking light, "
+            "green basil sauce vivid, "
+            "overall fresh and light coastal feeling",
+            "45-degree elevated angle. Fresh dill sprig and lemon wedge as sea-food styling props."
+        )}
+    ]},
+
+    {"tema": "🐟 Лосось з пармезановим пюре — 373₴", "category": "food",
+     "caption": "Стейк з лосося, пюре з пармезаном і соус Голандез 🐟\nМʼякий, ніжний, ідеальний.\nCHILI 🌶️\n\n#лосось #salmon #chiliodessa #одеса",
+     "refs_note": "📸 Фото лосося з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "premium salmon steak with parmesan mashed potato on elegant dark plate",
+            "Pan-seared salmon fillet with golden-crispy skin side up, "
+            "flesh showing orange-pink gradient from cooked edge to tender center, "
+            "creamy parmesan mashed potato swirled beside with butter lake, "
+            "hollandaise sauce cascading over salmon in glossy yellow waterfall, "
+            "masago caviar orange dots scattered on sauce, "
+            "wilted spinach with garlic oil. "
+            "SALMON RISES through frame with HOLLANDAISE WATERFALL following. ",
+            "salmon flakes mid-air showing vivid orange-pink color, "
+            "hollandaise sauce stream in golden arc, "
+            "masago caviar beads like tiny orange planets, "
+            "spinach leaf ribbons, mashed potato wisp, "
+            "parmesan snow",
+            "Premium coastal orange and gold palette. Sophisticated dinner energy."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "salmon with parmesan mash — elegant dark oval plate, "
+            "thick salmon steak with perfectly crisped golden skin, "
+            "flesh showing beautiful orange-pink gradient and flaky texture at edge, "
+            "silky parmesan mashed potato quenelle with golden butter pool, "
+            "rich hollandaise sauce draped and pooling, "
+            "masago orange caviar dots on sauce surface like jewels, "
+            "wilted baby spinach with garlic oil",
+            f"{HALL} interior — dark plate on warm oak table, "
+            "focused restaurant ambient light creating intimate dinner feel",
+            "Single warm focused spotlight, "
+            "salmon skin golden and crisped, "
+            "flesh catching warm orange glow from internal pigment and light, "
+            "hollandaise glossy reflecting light, "
+            "masago each catching individual highlight dot",
+            "Low 30-degree angle hero shot showing salmon steak height. "
+            "White wine glass blurred at edge as dining prop."
+        )}
+    ]},
+
+    {"tema": "🐟 Стейк з тунця з бататом — 365₴", "category": "food",
+     "caption": "Тунець, батат і вершково-сирний соус 🐟\nНесподівано гарне поєднання.\nCHILI 🌶️\n\n#тунець #tuna #chiliodessa #одеса",
+     "refs_note": "📸 Фото стейку з тунця з меню CHILI\n🔴 Логотип CHILI PNG",
+     "variants": [
+        {"style": "3D", "prompt": S3D(
+            "premium tuna steak with sweet potato and cream cheese sauce",
+            "Thick seared tuna steak with dark char crust on exterior, "
+            "cross-cut revealing vivid pink-red raw-medium interior, "
+            "roasted sweet potato wedges in deep orange beside, "
+            "cream cheese sauce white and silky draping over everything, "
+            "wilted spinach with garlic oil, "
+            "parmesan shaved generously over top. "
+            "TUNA CROSS-SECTION REVEALED as it RISES through frame. ",
+            "tuna slice pieces mid-air showing vivid pink interior, "
+            "sweet potato wedge tumbling showing orange flesh, "
+            "cream sauce droplets white and silky, "
+            "spinach leaf ribbons, parmesan snow, "
+            "garlic oil drops golden",
+            "Bold contrast palette — vivid tuna pink vs sweet potato orange vs white sauce."
+        )},
+        {"style": "📸", "prompt": SREAL(
+            "tuna steak with sweet potato — dark ceramic plate, "
+            "thick seared tuna steak sliced to reveal brilliant pink-red interior, "
+            "char crust creating dramatic dark exterior contrast, "
+            "roasted sweet potato wedges showing deep orange caramelized flesh, "
+            "cream cheese sauce generously draped, "
+            "baby spinach with garlic oil, "
+            "parmesan shavings",
+            f"{HALL} interior — dark plate on oak table, "
+            "dramatic restaurant lighting enhancing color contrasts",
+            "Hard dramatic spotlight from above, "
+            "tuna interior pink-red glowing vividly, "
+            "sweet potato orange deep and caramelized, "
+            "cream sauce bright white against dark plate, "
+            "extreme color contrast composition",
+            "45-degree angle showing tuna cross-section cut face prominently. "
+            "Fresh lime wedge and chili as oceanic-spicy styling props."
+        )}
+    ]},
+
     # === САЛАТИ ===
 
     {"tema": "🥗 Салат з креветками", "category": "food",
@@ -774,13 +1543,13 @@ PROMPTS = [
 # ДЕНЬ ТИЖНЯ
 # ============================
 DAY_CATEGORIES = {
-    0: ["breakfast", "matcha"],
-    1: ["food", "matcha"],
-    2: ["cocktail", "matcha"],
-    3: ["food", "breakfast"],
-    4: ["cocktail", "vibe"],
-    5: ["cocktail", "vibe", "food"],
-    6: ["breakfast", "vibe"],
+    0: ["food", "matcha"],           # Понеділок — основні страви + матча
+    1: ["food", "matcha"],           # Вівторок
+    2: ["cocktail", "matcha"],       # Середа — коктейлі
+    3: ["food", "breakfast"],        # Четвер — їжа + сніданки
+    4: ["cocktail", "food"],         # П'ятниця — коктейлі + страви
+    5: ["cocktail", "vibe", "food"], # Субота — все
+    6: ["breakfast", "vibe"],        # Неділя — сніданки + атмосфера
 }
 DAY_NAMES_UK = ["Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота", "Неділя"]
 
