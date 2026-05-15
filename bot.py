@@ -413,7 +413,9 @@ PROMPTS = [
         )}
     ]},
 
-    # === САЛАТИ ===
+    # === БІЛЬШЕ КАТЕГОРІЙ МОЖНА ДОДАТИ АНАЛОГІЧНО ===
+
+    # === САЛАТИ (вибір топ позицій) ===
 
     {"tema": "🦐 Салат з креветками — 329₴", "category": "salad",
      "caption": "Король креветок, авокадо, в'ялені томати 🦐\nСвіжість морського бризу.\nCHILI 🌶️\n\n#салат #креветки #chiliodessa #одеса",
@@ -432,7 +434,7 @@ PROMPTS = [
         )}
     ]},
 
-    # === СУПИ ===
+    # === СУПИ (вибір) ===
 
     {"tema": "🍲 Борщ — від 81₴", "category": "soup",
      "caption": "Класичний борщ з сирною маслинкою 🍲\nВкус 'вдома'.\nCHILI 🌶️\n\n#борщ #суп #chiliodessa #одеса",
@@ -490,7 +492,7 @@ PROMPTS = [
         )}
     ]},
 
-    # === ОСНОВНІ СТРАВИ ===
+    # === ОСНОВНІ СТРАВИ (додати ключові) ===
 
     {"tema": "🥩 Пеппер Стейк — 495₴", "category": "food",
      "caption": "Стейк з грибним соусом і картоплею фрі 🥩\nДля справжніх любителів м'яса.\nCHILI 🌶️\n\n#стейк #мясо #chiliodessa #одеса",
@@ -574,7 +576,7 @@ DAY_CATEGORIES = {
     3: ["food", "lavash"],
     4: ["cocktail", "pasta"],
     5: ["cocktail", "vibe", "food"],
-    6: ["vibe", "food"],
+    6: ["vibe", "breakfast"] if any(p["category"] == "breakfast" for p in PROMPTS) else ["vibe", "food"],
 }
 DAY_NAMES_UK = ["Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота", "Неділя"]
 
@@ -747,15 +749,10 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             reply_markup=build_menu()
         )
 
-# ============================
-# ЩОДЕННА РОЗСИЛКА
-# ============================
 async def daily_sender(app):
     last_weekly = None
     while True:
         now = datetime.datetime.now(KYIV)
-
-        # Щонеділі о 20:00 — підсумок тижня
         if now.weekday() == 6 and now.hour == 20 and last_weekly != now.date():
             last_weekly = now.date()
             sent_week = get_sent_this_week()
@@ -768,34 +765,23 @@ async def daily_sender(app):
                 )
                 await app.bot.send_message(chat_id=CHAT_ID, text=report, reply_markup=build_menu())
 
-        # Розраховуємо скільки чекати до наступної 10:00
         target = now.replace(hour=10, minute=0, second=0, microsecond=0)
         if now >= target:
             target += datetime.timedelta(days=1)
-
         await asyncio.sleep((target - now).total_seconds())
 
-        # Відправляємо щоденний промт
         item = get_item_for_today()
         variant = random.choice(item["variants"])
         text, idx = format_prompt(item, variant)
         record_sent(item["tema"])
         await app.bot.send_message(chat_id=CHAT_ID, text=text, reply_markup=build_menu(idx))
 
-# ============================
-# ЗАПУСК — ВИПРАВЛЕНО
-# ============================
 async def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(button_handler))
-
-    async with app:
-        await app.start()
-        await app.updater.start_polling()
-        logging.info("✅ CHILI Bot запущено. Чекаємо повідомлення...")
-        await daily_sender(app)  # блокує, але всередині того ж event loop
-
+    asyncio.create_task(daily_sender(app))
+    await app.run_polling()
 
 if __name__ == "__main__":
     asyncio.run(main())
